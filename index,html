@@ -1,0 +1,30 @@
+<html>
+<head>  
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=INtVAEg1ZcBCN2IdoxwD3_PPSV8yRNh5vGsL8eL6FUxNY9Tb03v0tHf58R-kMZcTDVeEzcHMpD7GYf9cpDatbX638RRGpQoWaEF_09_kFD2OB1IljAqyaMwTBAE3IKzWsUp2RsYPpHAfV3DEbkK_szLCJipOO16fPEOPDE_XePJkT5HI-2FtbbpOlSC8YGhaNaK6VL8qBaLWzu76QKQcmBbXBjDUnQymY08hm0k49bYEdk8fgC63zcJhUxHNh48PuQoOiFv5quiPQUgyx1J7T65o1BkDV9e9s3Rchkc3SZ1qqpznvPlvKHLXxs_77XQZvxOGwEkYAGEKW9AOuJ2xPeWotWqHrPgdoTTZYzBSeXERy4hu_PfoAWpOL6ZkB0Eo687h9HKjMV0AQ-F3tKnxQkfWyf8UvzzbMIfF1BOiDJnuaMkgaOkNgFWQkgYLV5cdSGoPC4BRh6h3v6Oar4sdwfQGMGAnCfybUTF_vAyy_kGP_dM4FDeKFZ56nEvBy9NJZ-hLzMctQ9F4pi6rlJz6K1ABd0f6euimBy7Anj8leRm7W3oFnksxhCWn9BVG8UzYDKanQ4KWRbYNlyXHPCjxkRVR9PfqjxJpb44m6R82g-KYu2Gm6amer6FIDWu_vdPp_ChU8mQ2mIaMoT9KZnnNi_8U2GE8dACy8doUlzi4v1_B1Xz3YKom8ZBdWJ0vO5_XrKqmI8WwMm68dRbATRQpahcCeaqUV_831ZMGmBMTXztvyqxAJjdnCM7CcG9QSu72PfbVWcY11ihgA9RVQbxY7g88sjqH_P9dDfgv0bU-sq2XBrV6EC1BzafN5HSy0OlT3BknQ1d_XAHSZBSj5527DllTLsspMjGdJj1KlZEk-JFJSbWmP8clD7bhmlG7pJFZRkW8v0cgpdvyh6nFmvBRNhWmw6JlYOChIMFF8XFOZEKC0pH5v6Qodz2s4WjvDkDWi1U7brYkbkvx7A73cTsH8GvrNZiNK25a7meiiAdUWBRp7wkhwtInT8ZF9d3LdWA7iGk2chQGdyC1pH8dfr68SY6uOyZbRjvCFnCK7H9yhMyeUfBg8VVQm4riHwTeMk4j3UT0Oqs4u0xJaLQ1e5C2iW2HSkWJr8JZ54uJ-XHSW8wgZq9i4cRoar-wvh7fQIrWMtNkbSVMxowpzCpJHAr8OPBWZrzwRF1VGHtuVmljfZsfZ-NKrvGQx0xdCApFYliwlk2yf0tT-Bp_FquUikrmrmBonrJf0eCJOjE1hI6amu4" charset="UTF-8"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="body_backgorund" >
+<!-- class="body_backgorund"-->
+<div align="center">
+<h1>Pintura</h1>
+    <canvas id="myCanvas" width="800" height="600"></canvas>
+        <br><br >
+
+<!--Actividad adicional -->
+        <span>Color - </span>  
+        <input type="text" id="color">
+        <br><br>        
+        <span>Ancho de la línea  - </span>  
+        <input type="text" id="width_of_line">
+        <br><br>        
+        <button onclick="clearArea();">Restablecer</button>
+<!--Final de la actividad adicional -->
+    </div>
+
+<script src="main.js"></script>
+</body>
+</html>
